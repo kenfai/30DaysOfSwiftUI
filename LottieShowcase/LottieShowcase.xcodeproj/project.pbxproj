@@ -1,0 +1,640 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 52;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		527F9A652557E2A500319A5E /* LottieShowcaseApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 527F9A642557E2A500319A5E /* LottieShowcaseApp.swift */; };
+		527F9A672557E2A500319A5E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 527F9A662557E2A500319A5E /* ContentView.swift */; };
+		527F9A692557E2A600319A5E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 527F9A682557E2A600319A5E /* Assets.xcassets */; };
+		527F9A6C2557E2A600319A5E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 527F9A6B2557E2A600319A5E /* Preview Assets.xcassets */; };
+		527F9A762557E31100319A5E /* Lottie in Frameworks */ = {isa = PBXBuildFile; productRef = 527F9A752557E31100319A5E /* Lottie */; };
+		527F9ABC2557E34B00319A5E /* PieChart_AnimOn.json in Resources */ = {isa = PBXBuildFile; fileRef = 527F9A792557E34800319A5E /* PieChart_AnimOn.json */; };
+		527F9ABD2557E34B00319A5E /* Camera_AnimOff.json in Resources */ = {isa = PBXBuildFile; fileRef = 527F9A7A2557E34800319A5E /* Camera_AnimOff.json */; };
+		527F9ABE2557E34B00319A5E /* Maximize_AnimOff.json in Resources */ = {isa = PBXBuildFile; fileRef = 527F9A7B2557E34800319A5E /* Maximize_AnimOff.json */; };
+		527F9ABF2557E34B00319A5E /* Eye_AnimOn.json in Resources */ = {isa = PBXBuildFile; fileRef = 527F9A7C2557E34800319A5E /* Eye_AnimOn.json */; };
+		527F9AC02557E34B00319A5E /* Heart_AnimOff.json in Resources */ = {isa = PBXBuildFile; fileRef = 527F9A7D2557E34800319A5E /* Heart_AnimOff.json */; };
+		527F9AC12557E34B00319A5E /* Maximize_AnimOn.json in Resources */ = {isa = PBXBuildFile; fileRef = 527F9A7E2557E34800319A5E /* Maximize_AnimOn.json */; };
+		527F9AC22557E34B00319A5E /* Screen_AnimOn.json in Resources */ = {isa = PBXBuildFile; fileRef = 527F9A7F2557E34900319A5E /* Screen_AnimOn.json */; };
+		527F9AC32557E34B00319A5E /* Telephone_AnimOn.json in Resources */ = {isa = PBXBuildFile; fileRef = 527F9A802557E34900319A5E /* Telephone_AnimOn.json */; };
+		527F9AC42557E34B00319A5E /* Globe_AnimOn.json in Resources */ = {isa = PBXBuildFile; fileRef = 527F9A812557E34900319A5E /* Globe_AnimOn.json */; };
+		527F9AC52557E34B00319A5E /* Alarm_AnimOff.json in Resources */ = {isa = PBXBuildFile; fileRef = 527F9A822557E34900319A5E /* Alarm_AnimOff.json */; };
+		527F9AC62557E34B00319A5E /* Thumbsup_AnimOff.json in Resources */ = {isa = PBXBuildFile; fileRef = 527F9A832557E34900319A5E /* Thumbsup_AnimOff.json */; };
+		527F9AC72557E34B00319A5E /* Padlock_UnlockIt.json in Resources */ = {isa = PBXBuildFile; fileRef = 527F9A842557E34900319A5E /* Padlock_UnlockIt.json */; };
+		527F9AC82557E34B00319A5E /* LoudMute_Mute.json in Resources */ = {isa = PBXBuildFile; fileRef = 527F9A852557E34900319A5E /* LoudMute_Mute.json */; };
+		527F9AC92557E34B00319A5E /* ShoppingCart_AnimOff.json in Resources */ = {isa = PBXBuildFile; fileRef = 527F9A862557E34900319A5E /* ShoppingCart_AnimOff.json */; };
+		527F9ACA2557E34B00319A5E /* Padlock_LockIt.json in Resources */ = {isa = PBXBuildFile; fileRef = 527F9A872557E34900319A5E /* Padlock_LockIt.json */; };
+		527F9ACB2557E34B00319A5E /* Printer_AnimOn.json in Resources */ = {isa = PBXBuildFile; fileRef = 527F9A882557E34900319A5E /* Printer_AnimOn.json */; };
+		527F9ACC2557E34B00319A5E /* Telephone_Ring.json in Resources */ = {isa = PBXBuildFile; fileRef = 527F9A892557E34900319A5E /* Telephone_Ring.json */; };
+		527F9ACD2557E34B00319A5E /* Thumbsdown_Animate.json in Resources */ = {isa = PBXBuildFile; fileRef = 527F9A8A2557E34900319A5E /* Thumbsdown_Animate.json */; };
+		527F9ACE2557E34B00319A5E /* BarChart_AnimOff.json in Resources */ = {isa = PBXBuildFile; fileRef = 527F9A8B2557E34900319A5E /* BarChart_AnimOff.json */; };
+		527F9ACF2557E34B00319A5E /* UsePencil_AnimOn.json in Resources */ = {isa = PBXBuildFile; fileRef = 527F9A8C2557E34900319A5E /* UsePencil_AnimOn.json */; };
+		527F9AD02557E34B00319A5E /* MagnifyingGlass_AnimOn.json in Resources */ = {isa = PBXBuildFile; fileRef = 527F9A8D2557E34900319A5E /* MagnifyingGlass_AnimOn.json */; };
+		527F9AD12557E34B00319A5E /* LoudMute_Loud.json in Resources */ = {isa = PBXBuildFile; fileRef = 527F9A8E2557E34900319A5E /* LoudMute_Loud.json */; };
+		527F9AD22557E34B00319A5E /* Home_AnimOff.json in Resources */ = {isa = PBXBuildFile; fileRef = 527F9A8F2557E34900319A5E /* Home_AnimOff.json */; };
+		527F9AD32557E34B00319A5E /* Home_AnimOn.json in Resources */ = {isa = PBXBuildFile; fileRef = 527F9A902557E34900319A5E /* Home_AnimOn.json */; };
+		527F9AD42557E34B00319A5E /* Alarm_Ring.json in Resources */ = {isa = PBXBuildFile; fileRef = 527F9A912557E34900319A5E /* Alarm_Ring.json */; };
+		527F9AD52557E34B00319A5E /* Eye_Blinks.json in Resources */ = {isa = PBXBuildFile; fileRef = 527F9A922557E34900319A5E /* Eye_Blinks.json */; };
+		527F9AD62557E34B00319A5E /* Paper_AnimOn.json in Resources */ = {isa = PBXBuildFile; fileRef = 527F9A932557E34900319A5E /* Paper_AnimOn.json */; };
+		527F9AD72557E34B00319A5E /* Globe_AnimOff.json in Resources */ = {isa = PBXBuildFile; fileRef = 527F9A942557E34900319A5E /* Globe_AnimOff.json */; };
+		527F9AD82557E34B00319A5E /* Thumbsdown_AnimOff.json in Resources */ = {isa = PBXBuildFile; fileRef = 527F9A952557E34900319A5E /* Thumbsdown_AnimOff.json */; };
+		527F9AD92557E34B00319A5E /* Share_AnimOn.json in Resources */ = {isa = PBXBuildFile; fileRef = 527F9A962557E34A00319A5E /* Share_AnimOn.json */; };
+		527F9ADA2557E34B00319A5E /* FeverChart_AnimOff.json in Resources */ = {isa = PBXBuildFile; fileRef = 527F9A972557E34A00319A5E /* FeverChart_AnimOff.json */; };
+		527F9ADB2557E34B00319A5E /* Eye_AnimOff.json in Resources */ = {isa = PBXBuildFile; fileRef = 527F9A982557E34A00319A5E /* Eye_AnimOff.json */; };
+		527F9ADC2557E34B00319A5E /* UsePencil_AnimOff.json in Resources */ = {isa = PBXBuildFile; fileRef = 527F9A992557E34A00319A5E /* UsePencil_AnimOff.json */; };
+		527F9ADD2557E34B00319A5E /* Heart_AnimOn.json in Resources */ = {isa = PBXBuildFile; fileRef = 527F9A9A2557E34A00319A5E /* Heart_AnimOn.json */; };
+		527F9ADE2557E34B00319A5E /* Printer_AnimOff.json in Resources */ = {isa = PBXBuildFile; fileRef = 527F9A9B2557E34A00319A5E /* Printer_AnimOff.json */; };
+		527F9ADF2557E34B00319A5E /* Alarm_AnimOn.json in Resources */ = {isa = PBXBuildFile; fileRef = 527F9A9C2557E34A00319A5E /* Alarm_AnimOn.json */; };
+		527F9AE02557E34B00319A5E /* FeverChart_AnimOn.json in Resources */ = {isa = PBXBuildFile; fileRef = 527F9A9D2557E34A00319A5E /* FeverChart_AnimOn.json */; };
+		527F9AE12557E34B00319A5E /* Printer_Print.json in Resources */ = {isa = PBXBuildFile; fileRef = 527F9A9E2557E34A00319A5E /* Printer_Print.json */; };
+		527F9AE22557E34B00319A5E /* Minimize_AnimOff.json in Resources */ = {isa = PBXBuildFile; fileRef = 527F9A9F2557E34A00319A5E /* Minimize_AnimOff.json */; };
+		527F9AE32557E34B00319A5E /* Telephone_AnimOff.json in Resources */ = {isa = PBXBuildFile; fileRef = 527F9AA02557E34A00319A5E /* Telephone_AnimOff.json */; };
+		527F9AE42557E34B00319A5E /* Download_AnimOff.json in Resources */ = {isa = PBXBuildFile; fileRef = 527F9AA12557E34A00319A5E /* Download_AnimOff.json */; };
+		527F9AE52557E34B00319A5E /* SpeechBubble_Dots.json in Resources */ = {isa = PBXBuildFile; fileRef = 527F9AA22557E34A00319A5E /* SpeechBubble_Dots.json */; };
+		527F9AE62557E34B00319A5E /* MagnifyingGlass_AnimOff.json in Resources */ = {isa = PBXBuildFile; fileRef = 527F9AA32557E34A00319A5E /* MagnifyingGlass_AnimOff.json */; };
+		527F9AE72557E34B00319A5E /* Thumbsdown_AnimOn.json in Resources */ = {isa = PBXBuildFile; fileRef = 527F9AA42557E34A00319A5E /* Thumbsdown_AnimOn.json */; };
+		527F9AE82557E34B00319A5E /* Download_Down.json in Resources */ = {isa = PBXBuildFile; fileRef = 527F9AA52557E34A00319A5E /* Download_Down.json */; };
+		527F9AE92557E34B00319A5E /* PriceTag_AnimOff.json in Resources */ = {isa = PBXBuildFile; fileRef = 527F9AA62557E34A00319A5E /* PriceTag_AnimOff.json */; };
+		527F9AEA2557E34B00319A5E /* Download_AnimOn.json in Resources */ = {isa = PBXBuildFile; fileRef = 527F9AA72557E34A00319A5E /* Download_AnimOn.json */; };
+		527F9AEB2557E34B00319A5E /* Share_AnimOff.json in Resources */ = {isa = PBXBuildFile; fileRef = 527F9AA82557E34A00319A5E /* Share_AnimOff.json */; };
+		527F9AEC2557E34B00319A5E /* Paper_AnimOff.json in Resources */ = {isa = PBXBuildFile; fileRef = 527F9AA92557E34A00319A5E /* Paper_AnimOff.json */; };
+		527F9AED2557E34B00319A5E /* SpeechBubble_AnimOff.json in Resources */ = {isa = PBXBuildFile; fileRef = 527F9AAA2557E34A00319A5E /* SpeechBubble_AnimOff.json */; };
+		527F9AEE2557E34B00319A5E /* SpeechBubble_AnimOn.json in Resources */ = {isa = PBXBuildFile; fileRef = 527F9AAB2557E34A00319A5E /* SpeechBubble_AnimOn.json */; };
+		527F9AEF2557E34B00319A5E /* Text_AnimOff.json in Resources */ = {isa = PBXBuildFile; fileRef = 527F9AAC2557E34B00319A5E /* Text_AnimOff.json */; };
+		527F9AF02557E34B00319A5E /* Text_AnimOn.json in Resources */ = {isa = PBXBuildFile; fileRef = 527F9AAD2557E34B00319A5E /* Text_AnimOn.json */; };
+		527F9AF12557E34B00319A5E /* Thumbsup_AnimOn.json in Resources */ = {isa = PBXBuildFile; fileRef = 527F9AAE2557E34B00319A5E /* Thumbsup_AnimOn.json */; };
+		527F9AF22557E34B00319A5E /* BarChart_AnimOn.json in Resources */ = {isa = PBXBuildFile; fileRef = 527F9AAF2557E34B00319A5E /* BarChart_AnimOn.json */; };
+		527F9AF32557E34B00319A5E /* Thumbsup_Animate.json in Resources */ = {isa = PBXBuildFile; fileRef = 527F9AB02557E34B00319A5E /* Thumbsup_Animate.json */; };
+		527F9AF42557E34B00319A5E /* Heart_Beat.json in Resources */ = {isa = PBXBuildFile; fileRef = 527F9AB12557E34B00319A5E /* Heart_Beat.json */; };
+		527F9AF52557E34B00319A5E /* Camera_AnimOn.json in Resources */ = {isa = PBXBuildFile; fileRef = 527F9AB22557E34B00319A5E /* Camera_AnimOn.json */; };
+		527F9AF62557E34B00319A5E /* LottieList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 527F9AB32557E34B00319A5E /* LottieList.swift */; };
+		527F9AF72557E34B00319A5E /* Camera_Flash.json in Resources */ = {isa = PBXBuildFile; fileRef = 527F9AB42557E34B00319A5E /* Camera_Flash.json */; };
+		527F9AF82557E34B00319A5E /* ShoppingCart_AnimOn.json in Resources */ = {isa = PBXBuildFile; fileRef = 527F9AB52557E34B00319A5E /* ShoppingCart_AnimOn.json */; };
+		527F9AF92557E34B00319A5E /* Reload_AnimOff.json in Resources */ = {isa = PBXBuildFile; fileRef = 527F9AB62557E34B00319A5E /* Reload_AnimOff.json */; };
+		527F9AFA2557E34B00319A5E /* PieChart_AnimOff.json in Resources */ = {isa = PBXBuildFile; fileRef = 527F9AB72557E34B00319A5E /* PieChart_AnimOff.json */; };
+		527F9AFB2557E34B00319A5E /* Screen_AnimOff.json in Resources */ = {isa = PBXBuildFile; fileRef = 527F9AB82557E34B00319A5E /* Screen_AnimOff.json */; };
+		527F9AFC2557E34B00319A5E /* Minimize_AnimOn.json in Resources */ = {isa = PBXBuildFile; fileRef = 527F9AB92557E34B00319A5E /* Minimize_AnimOn.json */; };
+		527F9AFD2557E34B00319A5E /* Reload_AnimOn.json in Resources */ = {isa = PBXBuildFile; fileRef = 527F9ABA2557E34B00319A5E /* Reload_AnimOn.json */; };
+		527F9AFE2557E34B00319A5E /* PriceTag_AnimOn.json in Resources */ = {isa = PBXBuildFile; fileRef = 527F9ABB2557E34B00319A5E /* PriceTag_AnimOn.json */; };
+		527F9B012557E38500319A5E /* LottieView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 527F9B002557E38500319A5E /* LottieView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		527F9A612557E2A500319A5E /* LottieShowcase.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LottieShowcase.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		527F9A642557E2A500319A5E /* LottieShowcaseApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LottieShowcaseApp.swift; sourceTree = "<group>"; };
+		527F9A662557E2A500319A5E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		527F9A682557E2A600319A5E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		527F9A6B2557E2A600319A5E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		527F9A6D2557E2A600319A5E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		527F9A792557E34800319A5E /* PieChart_AnimOn.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = PieChart_AnimOn.json; sourceTree = "<group>"; };
+		527F9A7A2557E34800319A5E /* Camera_AnimOff.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Camera_AnimOff.json; sourceTree = "<group>"; };
+		527F9A7B2557E34800319A5E /* Maximize_AnimOff.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Maximize_AnimOff.json; sourceTree = "<group>"; };
+		527F9A7C2557E34800319A5E /* Eye_AnimOn.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Eye_AnimOn.json; sourceTree = "<group>"; };
+		527F9A7D2557E34800319A5E /* Heart_AnimOff.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Heart_AnimOff.json; sourceTree = "<group>"; };
+		527F9A7E2557E34800319A5E /* Maximize_AnimOn.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Maximize_AnimOn.json; sourceTree = "<group>"; };
+		527F9A7F2557E34900319A5E /* Screen_AnimOn.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Screen_AnimOn.json; sourceTree = "<group>"; };
+		527F9A802557E34900319A5E /* Telephone_AnimOn.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Telephone_AnimOn.json; sourceTree = "<group>"; };
+		527F9A812557E34900319A5E /* Globe_AnimOn.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Globe_AnimOn.json; sourceTree = "<group>"; };
+		527F9A822557E34900319A5E /* Alarm_AnimOff.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Alarm_AnimOff.json; sourceTree = "<group>"; };
+		527F9A832557E34900319A5E /* Thumbsup_AnimOff.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Thumbsup_AnimOff.json; sourceTree = "<group>"; };
+		527F9A842557E34900319A5E /* Padlock_UnlockIt.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Padlock_UnlockIt.json; sourceTree = "<group>"; };
+		527F9A852557E34900319A5E /* LoudMute_Mute.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = LoudMute_Mute.json; sourceTree = "<group>"; };
+		527F9A862557E34900319A5E /* ShoppingCart_AnimOff.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = ShoppingCart_AnimOff.json; sourceTree = "<group>"; };
+		527F9A872557E34900319A5E /* Padlock_LockIt.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Padlock_LockIt.json; sourceTree = "<group>"; };
+		527F9A882557E34900319A5E /* Printer_AnimOn.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Printer_AnimOn.json; sourceTree = "<group>"; };
+		527F9A892557E34900319A5E /* Telephone_Ring.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Telephone_Ring.json; sourceTree = "<group>"; };
+		527F9A8A2557E34900319A5E /* Thumbsdown_Animate.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Thumbsdown_Animate.json; sourceTree = "<group>"; };
+		527F9A8B2557E34900319A5E /* BarChart_AnimOff.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = BarChart_AnimOff.json; sourceTree = "<group>"; };
+		527F9A8C2557E34900319A5E /* UsePencil_AnimOn.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = UsePencil_AnimOn.json; sourceTree = "<group>"; };
+		527F9A8D2557E34900319A5E /* MagnifyingGlass_AnimOn.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = MagnifyingGlass_AnimOn.json; sourceTree = "<group>"; };
+		527F9A8E2557E34900319A5E /* LoudMute_Loud.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = LoudMute_Loud.json; sourceTree = "<group>"; };
+		527F9A8F2557E34900319A5E /* Home_AnimOff.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Home_AnimOff.json; sourceTree = "<group>"; };
+		527F9A902557E34900319A5E /* Home_AnimOn.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Home_AnimOn.json; sourceTree = "<group>"; };
+		527F9A912557E34900319A5E /* Alarm_Ring.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Alarm_Ring.json; sourceTree = "<group>"; };
+		527F9A922557E34900319A5E /* Eye_Blinks.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Eye_Blinks.json; sourceTree = "<group>"; };
+		527F9A932557E34900319A5E /* Paper_AnimOn.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Paper_AnimOn.json; sourceTree = "<group>"; };
+		527F9A942557E34900319A5E /* Globe_AnimOff.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Globe_AnimOff.json; sourceTree = "<group>"; };
+		527F9A952557E34900319A5E /* Thumbsdown_AnimOff.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Thumbsdown_AnimOff.json; sourceTree = "<group>"; };
+		527F9A962557E34A00319A5E /* Share_AnimOn.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Share_AnimOn.json; sourceTree = "<group>"; };
+		527F9A972557E34A00319A5E /* FeverChart_AnimOff.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = FeverChart_AnimOff.json; sourceTree = "<group>"; };
+		527F9A982557E34A00319A5E /* Eye_AnimOff.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Eye_AnimOff.json; sourceTree = "<group>"; };
+		527F9A992557E34A00319A5E /* UsePencil_AnimOff.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = UsePencil_AnimOff.json; sourceTree = "<group>"; };
+		527F9A9A2557E34A00319A5E /* Heart_AnimOn.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Heart_AnimOn.json; sourceTree = "<group>"; };
+		527F9A9B2557E34A00319A5E /* Printer_AnimOff.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Printer_AnimOff.json; sourceTree = "<group>"; };
+		527F9A9C2557E34A00319A5E /* Alarm_AnimOn.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Alarm_AnimOn.json; sourceTree = "<group>"; };
+		527F9A9D2557E34A00319A5E /* FeverChart_AnimOn.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = FeverChart_AnimOn.json; sourceTree = "<group>"; };
+		527F9A9E2557E34A00319A5E /* Printer_Print.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Printer_Print.json; sourceTree = "<group>"; };
+		527F9A9F2557E34A00319A5E /* Minimize_AnimOff.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Minimize_AnimOff.json; sourceTree = "<group>"; };
+		527F9AA02557E34A00319A5E /* Telephone_AnimOff.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Telephone_AnimOff.json; sourceTree = "<group>"; };
+		527F9AA12557E34A00319A5E /* Download_AnimOff.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Download_AnimOff.json; sourceTree = "<group>"; };
+		527F9AA22557E34A00319A5E /* SpeechBubble_Dots.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = SpeechBubble_Dots.json; sourceTree = "<group>"; };
+		527F9AA32557E34A00319A5E /* MagnifyingGlass_AnimOff.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = MagnifyingGlass_AnimOff.json; sourceTree = "<group>"; };
+		527F9AA42557E34A00319A5E /* Thumbsdown_AnimOn.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Thumbsdown_AnimOn.json; sourceTree = "<group>"; };
+		527F9AA52557E34A00319A5E /* Download_Down.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Download_Down.json; sourceTree = "<group>"; };
+		527F9AA62557E34A00319A5E /* PriceTag_AnimOff.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = PriceTag_AnimOff.json; sourceTree = "<group>"; };
+		527F9AA72557E34A00319A5E /* Download_AnimOn.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Download_AnimOn.json; sourceTree = "<group>"; };
+		527F9AA82557E34A00319A5E /* Share_AnimOff.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Share_AnimOff.json; sourceTree = "<group>"; };
+		527F9AA92557E34A00319A5E /* Paper_AnimOff.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Paper_AnimOff.json; sourceTree = "<group>"; };
+		527F9AAA2557E34A00319A5E /* SpeechBubble_AnimOff.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = SpeechBubble_AnimOff.json; sourceTree = "<group>"; };
+		527F9AAB2557E34A00319A5E /* SpeechBubble_AnimOn.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = SpeechBubble_AnimOn.json; sourceTree = "<group>"; };
+		527F9AAC2557E34B00319A5E /* Text_AnimOff.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Text_AnimOff.json; sourceTree = "<group>"; };
+		527F9AAD2557E34B00319A5E /* Text_AnimOn.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Text_AnimOn.json; sourceTree = "<group>"; };
+		527F9AAE2557E34B00319A5E /* Thumbsup_AnimOn.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Thumbsup_AnimOn.json; sourceTree = "<group>"; };
+		527F9AAF2557E34B00319A5E /* BarChart_AnimOn.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = BarChart_AnimOn.json; sourceTree = "<group>"; };
+		527F9AB02557E34B00319A5E /* Thumbsup_Animate.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Thumbsup_Animate.json; sourceTree = "<group>"; };
+		527F9AB12557E34B00319A5E /* Heart_Beat.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Heart_Beat.json; sourceTree = "<group>"; };
+		527F9AB22557E34B00319A5E /* Camera_AnimOn.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Camera_AnimOn.json; sourceTree = "<group>"; };
+		527F9AB32557E34B00319A5E /* LottieList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LottieList.swift; sourceTree = "<group>"; };
+		527F9AB42557E34B00319A5E /* Camera_Flash.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Camera_Flash.json; sourceTree = "<group>"; };
+		527F9AB52557E34B00319A5E /* ShoppingCart_AnimOn.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = ShoppingCart_AnimOn.json; sourceTree = "<group>"; };
+		527F9AB62557E34B00319A5E /* Reload_AnimOff.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Reload_AnimOff.json; sourceTree = "<group>"; };
+		527F9AB72557E34B00319A5E /* PieChart_AnimOff.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = PieChart_AnimOff.json; sourceTree = "<group>"; };
+		527F9AB82557E34B00319A5E /* Screen_AnimOff.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Screen_AnimOff.json; sourceTree = "<group>"; };
+		527F9AB92557E34B00319A5E /* Minimize_AnimOn.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Minimize_AnimOn.json; sourceTree = "<group>"; };
+		527F9ABA2557E34B00319A5E /* Reload_AnimOn.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Reload_AnimOn.json; sourceTree = "<group>"; };
+		527F9ABB2557E34B00319A5E /* PriceTag_AnimOn.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = PriceTag_AnimOn.json; sourceTree = "<group>"; };
+		527F9B002557E38500319A5E /* LottieView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LottieView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		527F9A5E2557E2A500319A5E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				527F9A762557E31100319A5E /* Lottie in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		527F9A582557E2A500319A5E = {
+			isa = PBXGroup;
+			children = (
+				527F9A632557E2A500319A5E /* LottieShowcase */,
+				527F9A622557E2A500319A5E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		527F9A622557E2A500319A5E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				527F9A612557E2A500319A5E /* LottieShowcase.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		527F9A632557E2A500319A5E /* LottieShowcase */ = {
+			isa = PBXGroup;
+			children = (
+				527F9A782557E32C00319A5E /* LottieFiles */,
+				527F9A642557E2A500319A5E /* LottieShowcaseApp.swift */,
+				527F9A662557E2A500319A5E /* ContentView.swift */,
+				527F9B002557E38500319A5E /* LottieView.swift */,
+				527F9A682557E2A600319A5E /* Assets.xcassets */,
+				527F9A6D2557E2A600319A5E /* Info.plist */,
+				527F9A6A2557E2A600319A5E /* Preview Content */,
+			);
+			path = LottieShowcase;
+			sourceTree = "<group>";
+		};
+		527F9A6A2557E2A600319A5E /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				527F9A6B2557E2A600319A5E /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		527F9A782557E32C00319A5E /* LottieFiles */ = {
+			isa = PBXGroup;
+			children = (
+				527F9A822557E34900319A5E /* Alarm_AnimOff.json */,
+				527F9A9C2557E34A00319A5E /* Alarm_AnimOn.json */,
+				527F9A912557E34900319A5E /* Alarm_Ring.json */,
+				527F9A8B2557E34900319A5E /* BarChart_AnimOff.json */,
+				527F9AAF2557E34B00319A5E /* BarChart_AnimOn.json */,
+				527F9A7A2557E34800319A5E /* Camera_AnimOff.json */,
+				527F9AB22557E34B00319A5E /* Camera_AnimOn.json */,
+				527F9AB42557E34B00319A5E /* Camera_Flash.json */,
+				527F9AA12557E34A00319A5E /* Download_AnimOff.json */,
+				527F9AA72557E34A00319A5E /* Download_AnimOn.json */,
+				527F9AA52557E34A00319A5E /* Download_Down.json */,
+				527F9A982557E34A00319A5E /* Eye_AnimOff.json */,
+				527F9A7C2557E34800319A5E /* Eye_AnimOn.json */,
+				527F9A922557E34900319A5E /* Eye_Blinks.json */,
+				527F9A972557E34A00319A5E /* FeverChart_AnimOff.json */,
+				527F9A9D2557E34A00319A5E /* FeverChart_AnimOn.json */,
+				527F9A942557E34900319A5E /* Globe_AnimOff.json */,
+				527F9A812557E34900319A5E /* Globe_AnimOn.json */,
+				527F9A7D2557E34800319A5E /* Heart_AnimOff.json */,
+				527F9A9A2557E34A00319A5E /* Heart_AnimOn.json */,
+				527F9AB12557E34B00319A5E /* Heart_Beat.json */,
+				527F9A8F2557E34900319A5E /* Home_AnimOff.json */,
+				527F9A902557E34900319A5E /* Home_AnimOn.json */,
+				527F9AB32557E34B00319A5E /* LottieList.swift */,
+				527F9A8E2557E34900319A5E /* LoudMute_Loud.json */,
+				527F9A852557E34900319A5E /* LoudMute_Mute.json */,
+				527F9AA32557E34A00319A5E /* MagnifyingGlass_AnimOff.json */,
+				527F9A8D2557E34900319A5E /* MagnifyingGlass_AnimOn.json */,
+				527F9A7B2557E34800319A5E /* Maximize_AnimOff.json */,
+				527F9A7E2557E34800319A5E /* Maximize_AnimOn.json */,
+				527F9A9F2557E34A00319A5E /* Minimize_AnimOff.json */,
+				527F9AB92557E34B00319A5E /* Minimize_AnimOn.json */,
+				527F9A872557E34900319A5E /* Padlock_LockIt.json */,
+				527F9A842557E34900319A5E /* Padlock_UnlockIt.json */,
+				527F9AA92557E34A00319A5E /* Paper_AnimOff.json */,
+				527F9A932557E34900319A5E /* Paper_AnimOn.json */,
+				527F9AB72557E34B00319A5E /* PieChart_AnimOff.json */,
+				527F9A792557E34800319A5E /* PieChart_AnimOn.json */,
+				527F9AA62557E34A00319A5E /* PriceTag_AnimOff.json */,
+				527F9ABB2557E34B00319A5E /* PriceTag_AnimOn.json */,
+				527F9A9B2557E34A00319A5E /* Printer_AnimOff.json */,
+				527F9A882557E34900319A5E /* Printer_AnimOn.json */,
+				527F9A9E2557E34A00319A5E /* Printer_Print.json */,
+				527F9AB62557E34B00319A5E /* Reload_AnimOff.json */,
+				527F9ABA2557E34B00319A5E /* Reload_AnimOn.json */,
+				527F9AB82557E34B00319A5E /* Screen_AnimOff.json */,
+				527F9A7F2557E34900319A5E /* Screen_AnimOn.json */,
+				527F9AA82557E34A00319A5E /* Share_AnimOff.json */,
+				527F9A962557E34A00319A5E /* Share_AnimOn.json */,
+				527F9A862557E34900319A5E /* ShoppingCart_AnimOff.json */,
+				527F9AB52557E34B00319A5E /* ShoppingCart_AnimOn.json */,
+				527F9AAA2557E34A00319A5E /* SpeechBubble_AnimOff.json */,
+				527F9AAB2557E34A00319A5E /* SpeechBubble_AnimOn.json */,
+				527F9AA22557E34A00319A5E /* SpeechBubble_Dots.json */,
+				527F9AA02557E34A00319A5E /* Telephone_AnimOff.json */,
+				527F9A802557E34900319A5E /* Telephone_AnimOn.json */,
+				527F9A892557E34900319A5E /* Telephone_Ring.json */,
+				527F9AAC2557E34B00319A5E /* Text_AnimOff.json */,
+				527F9AAD2557E34B00319A5E /* Text_AnimOn.json */,
+				527F9A8A2557E34900319A5E /* Thumbsdown_Animate.json */,
+				527F9A952557E34900319A5E /* Thumbsdown_AnimOff.json */,
+				527F9AA42557E34A00319A5E /* Thumbsdown_AnimOn.json */,
+				527F9AB02557E34B00319A5E /* Thumbsup_Animate.json */,
+				527F9A832557E34900319A5E /* Thumbsup_AnimOff.json */,
+				527F9AAE2557E34B00319A5E /* Thumbsup_AnimOn.json */,
+				527F9A992557E34A00319A5E /* UsePencil_AnimOff.json */,
+				527F9A8C2557E34900319A5E /* UsePencil_AnimOn.json */,
+			);
+			path = LottieFiles;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		527F9A602557E2A500319A5E /* LottieShowcase */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 527F9A702557E2A600319A5E /* Build configuration list for PBXNativeTarget "LottieShowcase" */;
+			buildPhases = (
+				527F9A5D2557E2A500319A5E /* Sources */,
+				527F9A5E2557E2A500319A5E /* Frameworks */,
+				527F9A5F2557E2A500319A5E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LottieShowcase;
+			packageProductDependencies = (
+				527F9A752557E31100319A5E /* Lottie */,
+			);
+			productName = LottieShowcase;
+			productReference = 527F9A612557E2A500319A5E /* LottieShowcase.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		527F9A592557E2A500319A5E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1210;
+				LastUpgradeCheck = 1210;
+				TargetAttributes = {
+					527F9A602557E2A500319A5E = {
+						CreatedOnToolsVersion = 12.1;
+					};
+				};
+			};
+			buildConfigurationList = 527F9A5C2557E2A500319A5E /* Build configuration list for PBXProject "LottieShowcase" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 527F9A582557E2A500319A5E;
+			packageReferences = (
+				527F9A742557E31100319A5E /* XCRemoteSwiftPackageReference "lottie-ios" */,
+			);
+			productRefGroup = 527F9A622557E2A500319A5E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				527F9A602557E2A500319A5E /* LottieShowcase */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		527F9A5F2557E2A500319A5E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				527F9AD32557E34B00319A5E /* Home_AnimOn.json in Resources */,
+				527F9AF42557E34B00319A5E /* Heart_Beat.json in Resources */,
+				527F9AD82557E34B00319A5E /* Thumbsdown_AnimOff.json in Resources */,
+				527F9ACD2557E34B00319A5E /* Thumbsdown_Animate.json in Resources */,
+				527F9AFE2557E34B00319A5E /* PriceTag_AnimOn.json in Resources */,
+				527F9ACA2557E34B00319A5E /* Padlock_LockIt.json in Resources */,
+				527F9AFC2557E34B00319A5E /* Minimize_AnimOn.json in Resources */,
+				527F9A6C2557E2A600319A5E /* Preview Assets.xcassets in Resources */,
+				527F9AC62557E34B00319A5E /* Thumbsup_AnimOff.json in Resources */,
+				527F9AD12557E34B00319A5E /* LoudMute_Loud.json in Resources */,
+				527F9AC92557E34B00319A5E /* ShoppingCart_AnimOff.json in Resources */,
+				527F9AC12557E34B00319A5E /* Maximize_AnimOn.json in Resources */,
+				527F9ACC2557E34B00319A5E /* Telephone_Ring.json in Resources */,
+				527F9AE12557E34B00319A5E /* Printer_Print.json in Resources */,
+				527F9AFA2557E34B00319A5E /* PieChart_AnimOff.json in Resources */,
+				527F9AE52557E34B00319A5E /* SpeechBubble_Dots.json in Resources */,
+				527F9AFB2557E34B00319A5E /* Screen_AnimOff.json in Resources */,
+				527F9AEB2557E34B00319A5E /* Share_AnimOff.json in Resources */,
+				527F9AF12557E34B00319A5E /* Thumbsup_AnimOn.json in Resources */,
+				527F9AE32557E34B00319A5E /* Telephone_AnimOff.json in Resources */,
+				527F9ADE2557E34B00319A5E /* Printer_AnimOff.json in Resources */,
+				527F9AF22557E34B00319A5E /* BarChart_AnimOn.json in Resources */,
+				527F9AC32557E34B00319A5E /* Telephone_AnimOn.json in Resources */,
+				527F9ACF2557E34B00319A5E /* UsePencil_AnimOn.json in Resources */,
+				527F9AC02557E34B00319A5E /* Heart_AnimOff.json in Resources */,
+				527F9AD92557E34B00319A5E /* Share_AnimOn.json in Resources */,
+				527F9AD52557E34B00319A5E /* Eye_Blinks.json in Resources */,
+				527F9AF02557E34B00319A5E /* Text_AnimOn.json in Resources */,
+				527F9AF52557E34B00319A5E /* Camera_AnimOn.json in Resources */,
+				527F9AE02557E34B00319A5E /* FeverChart_AnimOn.json in Resources */,
+				527F9ADA2557E34B00319A5E /* FeverChart_AnimOff.json in Resources */,
+				527F9AD02557E34B00319A5E /* MagnifyingGlass_AnimOn.json in Resources */,
+				527F9AD62557E34B00319A5E /* Paper_AnimOn.json in Resources */,
+				527F9A692557E2A600319A5E /* Assets.xcassets in Resources */,
+				527F9ABC2557E34B00319A5E /* PieChart_AnimOn.json in Resources */,
+				527F9ABF2557E34B00319A5E /* Eye_AnimOn.json in Resources */,
+				527F9AF72557E34B00319A5E /* Camera_Flash.json in Resources */,
+				527F9AE72557E34B00319A5E /* Thumbsdown_AnimOn.json in Resources */,
+				527F9AE92557E34B00319A5E /* PriceTag_AnimOff.json in Resources */,
+				527F9AF92557E34B00319A5E /* Reload_AnimOff.json in Resources */,
+				527F9AEC2557E34B00319A5E /* Paper_AnimOff.json in Resources */,
+				527F9AC42557E34B00319A5E /* Globe_AnimOn.json in Resources */,
+				527F9AFD2557E34B00319A5E /* Reload_AnimOn.json in Resources */,
+				527F9ADD2557E34B00319A5E /* Heart_AnimOn.json in Resources */,
+				527F9AD22557E34B00319A5E /* Home_AnimOff.json in Resources */,
+				527F9ADF2557E34B00319A5E /* Alarm_AnimOn.json in Resources */,
+				527F9AE62557E34B00319A5E /* MagnifyingGlass_AnimOff.json in Resources */,
+				527F9AF82557E34B00319A5E /* ShoppingCart_AnimOn.json in Resources */,
+				527F9AC72557E34B00319A5E /* Padlock_UnlockIt.json in Resources */,
+				527F9AF32557E34B00319A5E /* Thumbsup_Animate.json in Resources */,
+				527F9ACB2557E34B00319A5E /* Printer_AnimOn.json in Resources */,
+				527F9AE22557E34B00319A5E /* Minimize_AnimOff.json in Resources */,
+				527F9ADC2557E34B00319A5E /* UsePencil_AnimOff.json in Resources */,
+				527F9ABE2557E34B00319A5E /* Maximize_AnimOff.json in Resources */,
+				527F9AC22557E34B00319A5E /* Screen_AnimOn.json in Resources */,
+				527F9AC82557E34B00319A5E /* LoudMute_Mute.json in Resources */,
+				527F9AD42557E34B00319A5E /* Alarm_Ring.json in Resources */,
+				527F9AD72557E34B00319A5E /* Globe_AnimOff.json in Resources */,
+				527F9AE42557E34B00319A5E /* Download_AnimOff.json in Resources */,
+				527F9ADB2557E34B00319A5E /* Eye_AnimOff.json in Resources */,
+				527F9ACE2557E34B00319A5E /* BarChart_AnimOff.json in Resources */,
+				527F9AC52557E34B00319A5E /* Alarm_AnimOff.json in Resources */,
+				527F9AEE2557E34B00319A5E /* SpeechBubble_AnimOn.json in Resources */,
+				527F9AED2557E34B00319A5E /* SpeechBubble_AnimOff.json in Resources */,
+				527F9ABD2557E34B00319A5E /* Camera_AnimOff.json in Resources */,
+				527F9AEF2557E34B00319A5E /* Text_AnimOff.json in Resources */,
+				527F9AEA2557E34B00319A5E /* Download_AnimOn.json in Resources */,
+				527F9AE82557E34B00319A5E /* Download_Down.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		527F9A5D2557E2A500319A5E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				527F9AF62557E34B00319A5E /* LottieList.swift in Sources */,
+				527F9A672557E2A500319A5E /* ContentView.swift in Sources */,
+				527F9A652557E2A500319A5E /* LottieShowcaseApp.swift in Sources */,
+				527F9B012557E38500319A5E /* LottieView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		527F9A6E2557E2A600319A5E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		527F9A6F2557E2A600319A5E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		527F9A712557E2A600319A5E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"LottieShowcase/Preview Content\"";
+				DEVELOPMENT_TEAM = PM9A36DEYH;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = LottieShowcase/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ginger.LottieShowcase;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		527F9A722557E2A600319A5E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"LottieShowcase/Preview Content\"";
+				DEVELOPMENT_TEAM = PM9A36DEYH;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = LottieShowcase/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ginger.LottieShowcase;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		527F9A5C2557E2A500319A5E /* Build configuration list for PBXProject "LottieShowcase" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				527F9A6E2557E2A600319A5E /* Debug */,
+				527F9A6F2557E2A600319A5E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		527F9A702557E2A600319A5E /* Build configuration list for PBXNativeTarget "LottieShowcase" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				527F9A712557E2A600319A5E /* Debug */,
+				527F9A722557E2A600319A5E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		527F9A742557E31100319A5E /* XCRemoteSwiftPackageReference "lottie-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/airbnb/lottie-ios/";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 3.1.9;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		527F9A752557E31100319A5E /* Lottie */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 527F9A742557E31100319A5E /* XCRemoteSwiftPackageReference "lottie-ios" */;
+			productName = Lottie;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 527F9A592557E2A500319A5E /* Project object */;
+}
